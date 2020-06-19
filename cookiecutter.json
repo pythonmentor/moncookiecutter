@@ -1,0 +1,13 @@
+{
+    "nom_de_projet": "Nom par défaut de mon projet",
+    "slug_du_projet": "donner un slug pour votre projet",
+    "description": "Une description",
+    "version_de_python": [
+        "3.8",
+        "3.7",
+        "3.6"
+    ],
+    "utiliser_requests": "y",
+    "utiliser_mysql_connector": "n"
+
+}

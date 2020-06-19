@@ -1,0 +1,13 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+{% if cookiecutter.utiliser_requests == "y" %}requests = "*"{% endif %}
+{% if cookiecutter.utiliser_mysql_connector == "y" %}mysql-connector-python = "*"{% endif %}
+
+[requires]
+python_version = "{{ cookiecutter.version_de_python }}"
